@@ -13,3 +13,5 @@ Monthtly statistics -> use a database to store data
 Check how long one was productive with task completion rate and time spent by looking at the laptop
 
 Create a predictive model based on a trained dataset (trained on monthly stats?) to predict productvity (potentially show optimal variable values)
+
+Add apps into productivity v/s social. User can switch out of a productivity app
