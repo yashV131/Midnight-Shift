@@ -9,11 +9,15 @@ Tamu hack 2026
 make a darboard to display stats such as (no of times slouched, hours spent on screen)<br>
 and analysis such as(most productive timke of day, overall productivity, blink frequency)
 
-Monthtly statistics -> use a database to store data
+Daily statistics -> use a database to store data
 Check how long one was productive with task completion rate and time spent by looking at the laptop
 
+<<<<<<< HEAD
 Create a predictive model based on a trained dataset (trained on monthly stats?) to predict productvity (potentially show optimal variable values)
 
 Add apps into productivity v/s social. User can switch out of a productivity app
 
 ADDRESS PRIVACY CONCERNS!!!!
+=======
+Create a predictive model based on a trained dataset (trained on daily stats recorded across a year) to predict daily productvity (potentially show optimal variable values)
+>>>>>>> 050129592c32c47794ee77c1c08e98a78bc3b6a1
