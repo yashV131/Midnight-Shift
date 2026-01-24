@@ -1,7 +1,7 @@
 # TamuHack2026
 Tamu hack 2026
 <br>Auto lock if user walks away. (works with front and side profile, buffer 10 s)
-<br>Track user eye on screen for productivity.
+<br>Track user eye on screen for productivity. (If user looks away for 10 seconds or more, it is not considered productive time)
 <br>Check user posture.
 <br>Use face recognition to see if user is in front of screen.
 <br>drowsiness alert (mabye!!!)
