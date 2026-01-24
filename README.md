@@ -11,3 +11,5 @@ and analysis such as(most productive timke of day, overall productivity, blink f
 
 Monthtly statistics -> use a database to store data
 Check how long one was productive with task completion rate and time spent by looking at the laptop
+
+Create a predictive model based on a trained dataset (trained on monthly stats?) to predict productvity (potentially show optimal variable values)
