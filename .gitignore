@@ -1,2 +1,12 @@
+.venv/
+build/
+dist/
+dlib/
+*.dat
+*.whl
+*.db
+*.log
+__pycache__/
 node_modules/
-* text eol=crlf
+.env
+.DS_Store

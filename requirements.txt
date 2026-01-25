@@ -9,3 +9,4 @@ numpy
 requests
 win10toast
 flask_cors
+ultralytics
