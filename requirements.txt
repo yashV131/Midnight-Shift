@@ -1,5 +1,11 @@
-flask==3.0.0
-psutil==5.10.0
-opencv-python==4.8.1.78
-face-recognition==1.3.5
-numpy==1.24.3
+# requirements.txt
+flask
+flask-cors
+psutil
+opencv-python
+dlib
+face-recognition
+numpy
+requests
+win10toast
+flask_cors
