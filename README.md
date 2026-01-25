@@ -1,11 +1,21 @@
+# TamuHack2026
+Tamu hack 2026
+<br>Auto lock if user walks away. (works with front and side profile)
+<br>Track user eye on screen for productivity. (If user looks away for 10 seconds or more, it is not considered productive time)
+<br>Check user posture.
+<br>Use face recognition to see if user is in front of screen (impelmented and combined with autolock).
+<br>drowsiness alert (mabye!!!)
+<br>
+make a darboard to display stats such as (no of times slouched, hours spent on screen)<br>
+and analysis such as(most productive timke of day, overall productivity, blink frequency)
 
-  # Improve Dashboard Aesthetics
+Daily statistics -> use a database to store data
+Check how long one was productive with task completion rate and time spent by looking at the laptop
 
-  This is a code bundle for Improve Dashboard Aesthetics. The original project is available at https://www.figma.com/design/gQ7OPxMA74rkR6v9lCqXqL/Improve-Dashboard-Aesthetics.
+Add apps into productivity v/s social. User can switch out of a productivity app
 
-  ## Running the code
+ADDRESS PRIVACY CONCERNS!!!!
 
-  Run `npm i` to install the dependencies.
+Create a predictive model based on a trained dataset (trained on daily stats recorded across a year) to predict daily productvity (potentially show optimal variable values)
 
-  Run `npm run dev` to start the development server.
-   
+Add tasks/remove tasks(maybe?)
