@@ -4,6 +4,18 @@ import dlib
 import time
 import requests
 import threading
+import os
+import urllib.request
+
+
+PREDICTOR_PATH = "shape_predictor_68_face_landmarks.dat"
+PREDICTOR_URL = "https://raw.githubusercontent.com/italojs/facial-landmarks-recognition/master/shape_predictor_68_face_landmarks.dat"
+
+def ensure_predictor():
+    if not os.path.exists(PREDICTOR_PATH):
+        print("Downloading face landmark predictor...")
+        urllib.request.urlretrieve(PREDICTOR_URL, PREDICTOR_PATH)
+        print("Predictor downloaded.")
 
 class EyeTracker:
     def __init__(self, stop_event, predictor_path="shape_predictor_68_face_landmarks.dat"):
