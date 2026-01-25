@@ -1,0 +1,22 @@
+# Python
+.venv
+__pycache__
+*.pyc
+
+# Frontend / build artifacts
+build
+dist
+node_modules
+
+# ML / large assets (DO NOT UPLOAD)
+shape_predictor_68_face_landmarks.dat
+dlib
+*.whl
+
+# Local data
+*.db
+*.log
+
+# Misc
+.git
+.env

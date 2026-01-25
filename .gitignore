@@ -1,0 +1,12 @@
+.venv/
+build/
+dist/
+dlib/
+*.dat
+*.whl
+*.db
+*.log
+__pycache__/
+node_modules/
+.env
+.DS_Store

@@ -1,84 +1,442 @@
-[2026-01-24 14:30:27] Starting continuous screen monitoring...
-[2026-01-24 14:30:27] ============================================================
-[2026-01-24 14:30:27] Screen Monitor Started - Continuously Reading Screen
-[2026-01-24 14:30:27] ============================================================
-[2026-01-24 14:30:27]   Application: Code.exe
-[2026-01-24 14:30:27]   Title: autolock.py - Tamuhack26part2 - Visual Studio Code
-[2026-01-24 14:30:27]   Time: 14:30:27
-[2026-01-24 14:30:27] 
-[2026-01-24 14:30:30]   Application: chrome.exe
-[2026-01-24 14:30:30]   Title: yashV131/TamuHack2026 - Google Chrome
-[2026-01-24 14:30:30]   Time: 14:30:30
-[2026-01-24 14:30:30] 
-[2026-01-24 14:30:30]   Application: Code.exe
-[2026-01-24 14:30:30]   Title: autolock.py - Tamuhack26part2 - Visual Studio Code
-[2026-01-24 14:30:30]   Time: 14:30:30
-[2026-01-24 14:30:30] 
-[2026-01-24 14:30:40]   Application: explorer.exe
-[2026-01-24 14:30:40]   Title: Task Switching
-[2026-01-24 14:30:40]   Time: 14:30:40
-[2026-01-24 14:30:40] 
-[2026-01-24 14:30:40]   Application: chrome.exe
-[2026-01-24 14:30:40]   Title: TAMU (Open WebUI) - Google Chrome
-[2026-01-24 14:30:40]   Time: 14:30:40
-[2026-01-24 14:30:40] 
-[2026-01-24 14:30:41]   Application: explorer.exe
-[2026-01-24 14:30:41]   Title: Task Switching
-[2026-01-24 14:30:41]   Time: 14:30:41
-[2026-01-24 14:30:41] 
-[2026-01-24 14:30:41]   Application: Discord.exe
-[2026-01-24 14:30:41]   Title: @Anaisha G (8th) - Discord
-[2026-01-24 14:30:41]   Time: 14:30:41
-[2026-01-24 14:30:41] 
-[2026-01-24 14:30:42]   Application: explorer.exe
-[2026-01-24 14:30:42]   Title: Task Switching
-[2026-01-24 14:30:42]   Time: 14:30:42
-[2026-01-24 14:30:42] 
-[2026-01-24 14:30:42]   Application: WhatsApp.Root.exe
-[2026-01-24 14:30:42]   Title: WhatsApp
-[2026-01-24 14:30:42]   Time: 14:30:42
-[2026-01-24 14:30:42] 
-[2026-01-24 14:30:44]   Application: explorer.exe
-[2026-01-24 14:30:44]   Title: Task Switching
-[2026-01-24 14:30:44]   Time: 14:30:44
-[2026-01-24 14:30:44] 
-[2026-01-24 14:30:44]   Application: Notepad.exe
-[2026-01-24 14:30:44]   Title: *x - Notepad
-[2026-01-24 14:30:44]   Time: 14:30:44
-[2026-01-24 14:30:44] 
-[2026-01-24 14:30:45]   Application: explorer.exe
-[2026-01-24 14:30:45]   Title: Task Switching
-[2026-01-24 14:30:45]   Time: 14:30:45
-[2026-01-24 14:30:45] 
-[2026-01-24 14:30:48]   Application: Code.exe
-[2026-01-24 14:30:48]   Title: engrlab1.py - Engr Physics - Visual Studio Code
-[2026-01-24 14:30:48]   Time: 14:30:48
-[2026-01-24 14:30:48] 
-[2026-01-24 14:30:48]   Application: explorer.exe
-[2026-01-24 14:30:48]   Title: Home - File Explorer
-[2026-01-24 14:30:48]   Time: 14:30:48
-[2026-01-24 14:30:48] 
-[2026-01-24 14:30:49]   Application: Code.exe
-[2026-01-24 14:30:49]   Title: engrlab1.py - Engr Physics - Visual Studio Code
-[2026-01-24 14:30:49]   Time: 14:30:49
-[2026-01-24 14:30:49] 
-[2026-01-24 14:30:50]   Application: explorer.exe
-[2026-01-24 14:30:50]   Title: Task Switching
-[2026-01-24 14:30:50]   Time: 14:30:50
-[2026-01-24 14:30:50] 
-[2026-01-24 14:30:55]   Application: Code.exe
-[2026-01-24 14:30:55]   Title: engrlab1.py - Engr Physics - Visual Studio Code
-[2026-01-24 14:30:55]   Time: 14:30:55
-[2026-01-24 14:30:55] 
-[2026-01-24 14:30:56]   Application: explorer.exe
-[2026-01-24 14:30:56]   Title: Task Switching
-[2026-01-24 14:30:56]   Time: 14:30:56
-[2026-01-24 14:30:56] 
-[2026-01-24 14:30:59]   Application: Code.exe
-[2026-01-24 14:30:59]   Title: autolock.py - Tamuhack26part2 - Visual Studio Code
-[2026-01-24 14:30:59]   Time: 14:30:59
-[2026-01-24 14:30:59] 
-[2026-01-24 14:31:41] 
-============================================================
-[2026-01-24 14:31:41] Screen Monitor stopped by user
-[2026-01-24 14:31:41] ============================================================
+Session started!
+Switched from 'HBO' after 6 seconds (Distraction detected!).
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'HBO' after 8 seconds (Distraction detected!).
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'Whatsapp' after 2 seconds (Distraction detected!).
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'HBO' after 16 seconds (Distraction detected!).
+Switched from 'Python App Logging 📝 • TAMU (Open WebUI) - Google Chrome' after 14 seconds.
+Switched from 'Open' after 4 seconds.
+Switched from 'Python App Logging 📝 • TAMU (Open WebUI) - Google Chrome' after 2 seconds.
+Switched from 'HBO' after 6 seconds (Distraction detected!).
+Switched from 'Python App Logging 📝 • TAMU (Open WebUI) - Google Chrome' after 70 seconds.
+Switched from 'HBO' after 2 seconds (Distraction detected!).
+Switched from 'Python App Logging 📝 • TAMU (Open WebUI) - Google Chrome' after 24 seconds.
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Session started!
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'WhatsApp' after 4 seconds.
+Switched from 'Discord' after 2 seconds (Distraction detected!).
+Switched from 'New notification' after 2 seconds.
+Switched from 'Whatsapp' after 2 seconds (Distraction detected!).
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 14 seconds.
+Switched from 'Python App Logging 📝 • TAMU (Open WebUI) - Google Chrome' after 2 seconds.
+Switched from 'TAMU (Open WebUI) - Google Chrome' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 4 seconds.
+Switched from 'WhatsApp' after 4 seconds.
+Switched from 'distraction_tracking.db - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Visual Studio Code' after 4 seconds.
+Session started!
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 18 seconds.
+Switched from 'Task Switching' after 4 seconds.
+Switched from 'WhatsApp' after 6 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 6 seconds.
+Switched from '' after 2 seconds.
+Switched from 'Instagram' after 2 seconds (Distraction detected!).
+Switched from 'Instagram - Google Chrome' after 2 seconds.
+Switched from 'Instagram' after 6 seconds (Distraction detected!).
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 36 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'lockMechanism.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'eyetracking.py - FInalpart1 - Visual Studio Code' after 16 seconds.
+Switched from 'lockMechanism.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'main.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'distraction_tracking.db - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'database.py - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'screen_activity.log - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 16 seconds.
+Switched from 'Discord' after 6 seconds (Distraction detected!).
+Switched from 'WhatsApp' after 8 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'New Tab - Google Chrome' after 4 seconds.
+Switched from 'netflix - Google Search - Google Chrome' after 2 seconds.
+Switched from 'Netflix - Watch TV Shows Online, Watch Movies Online - Google Chrome' after 6 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 4 seconds.
+Switched from 'screen_activity.log - FInalpart1 - Visual Studio Code' after 18 seconds.
+Switched from 'requirements.txt - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 26 seconds.
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'eyetracking.py - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'lockMechanism.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'package-lock.json - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Visual Studio Code' after 2 seconds.
+Switched from 'Welcome - Visual Studio Code' after 4 seconds.
+Switched from 'Open Folder' after 16 seconds.
+Switched from 'lockMechanism.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Open Folder' after 12 seconds.
+Switched from 'yashvi - Visual Studio Code' after 2 seconds.
+Switched from 'Welcome - yashvi - Visual Studio Code' after 32 seconds.
+Switched from 'eyetracking.py - yashvi - Visual Studio Code' after 16 seconds.
+Switched from 'read_screen.py - yashvi - Visual Studio Code' after 2 seconds.
+Switched from 'lockMechanism.py - yashvi - Visual Studio Code' after 16 seconds.
+Switched from 'read_screen.py - yashvi - Visual Studio Code' after 6 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'lockMechanism.py - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'read_screen.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 6 seconds.
+Switched from 'Discord' after 20 seconds (Distraction detected!).
+Session ended. Last app was 'Improve Dashboard Aesthetics - Google Chrome' for 18 seconds.
+Session started!
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 10 seconds.
+Switched from 'Task Switching' after 4 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from '● README.md - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'Snipping Tool Overlay' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'Discord' after 18 seconds (Distraction detected!).
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 8 seconds.
+Switched from 'Discord' after 2 seconds (Distraction detected!).
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 6 seconds.
+Switched from 'Discord' after 25 seconds (Distraction detected!).
+Session ended. Last app was 'Improve Dashboard Aesthetics - Google Chrome' for 4 seconds.
+Session started!
+Switched from 'CSS Font Change ✏️ • TAMU (Open WebUI) - Google Chrome' after 2 seconds.
+Session ended. Last app was 'Improve Dashboard Aesthetics - Google Chrome' for 0 seconds.
+Session started!
+Switched from 'CSS Font Change ✏️ • TAMU (Open WebUI) - Google Chrome' after 24 seconds.
+Switched from '● App.tsx - FInalpart1 - Visual Studio Code' after 10 seconds.
+Switched from 'CSS Font Change ✏️ • TAMU (Open WebUI) - Google Chrome' after 2 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from '● App.tsx - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'CSS Font Change ✏️ • TAMU (Open WebUI) - Google Chrome' after 4 seconds.
+Switched from '● App.tsx - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'CSS Font Change ✏️ • TAMU (Open WebUI) - Google Chrome' after 6 seconds.
+Switched from '● App.tsx - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 4 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'CSS Font Change ✏️ • TAMU (Open WebUI) - Google Chrome' after 6 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 12 seconds.
+Switched from '● App.tsx - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from '● App.tsx - FInalpart1 - Visual Studio Code' after 8 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'CSS Font Change ✏️ • TAMU (Open WebUI) - Google Chrome' after 16 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 6 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 4 seconds.
+Switched from 'CSS Font Change ✏️ • TAMU (Open WebUI) - Google Chrome' after 6 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from '● App.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 8 seconds.
+Switched from 'Snipping Tool Overlay' after 4 seconds.
+Switched from 'Discord' after 4 seconds (Distraction detected!).
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 4 seconds.
+Switched from 'Snipping Tool Overlay' after 4 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Discord' after 10 seconds (Distraction detected!).
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'Discord' after 2 seconds (Distraction detected!).
+Switched from '' after 2 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'app.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Session started!
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 4 seconds.
+Switched from 'Discord' after 6 seconds (Distraction detected!).
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 8 seconds.
+Switched from 'Discord' after 3 seconds (Distraction detected!).
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 10 seconds.
+Switched from 'Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 12 seconds.
+Switched from 'Quick setup | Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 16 seconds.
+Switched from 'Welcome to React Bricks - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'Inbox (1,107) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 6 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'Quick setup | Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 14 seconds.
+Switched from 'yashv131 | Netlify - Google Chrome' after 6 seconds.
+Switched from 'Project overview | courageous-gumdrop-866763 | Netlify - Google Chrome' after 2 seconds.
+Switched from 'General | Project configuration | courageous-gumdrop-866763 | Netlify - Google Chrome' after 10 seconds.
+Switched from 'yashv131 | yashv131 | Netlify - Google Chrome' after 2 seconds.
+Switched from 'yashv131 | Netlify - Google Chrome' after 4 seconds.
+Switched from 'Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 2 seconds.
+Switched from 'Quick setup | Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 6 seconds.
+Switched from 'Inbox (1,107) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'Quick setup | Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 10 seconds.
+Switched from 'Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 2 seconds.
+Switched from 'blocked.net.tamu.edu/?client_ip=165.91.10.12&type=security&url=uggc%3A%2F%2Fzvqavtugfuvsg.grpu - Google Chrome' after 6 seconds.
+Switched from 'Snipping Tool Overlay' after 2 seconds.
+Switched from '' after 58 seconds.
+Switched from 'Windows Default Lock Screen' after 2 seconds.
+Switched from '' after 2 seconds.
+Switched from 'blocked.net.tamu.edu/?client_ip=165.91.10.12&type=security&url=uggc%3A%2F%2Fzvqavtugfuvsg.grpu - Google Chrome' after 2 seconds.
+Switched from 'Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 2 seconds.
+Switched from 'blocked.net.tamu.edu/?client_ip=165.91.10.12&type=security&url=uggc%3A%2F%2Fzvqavtugfuvsg.grpu - Google Chrome' after 8 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'blocked.net.tamu.edu/?client_ip=165.91.10.12&type=security&url=uggc%3A%2F%2Fzvqavtugfuvsg.grpu - Google Chrome' after 4 seconds.
+Switched from 'Project overview | clever-salamander-6f087f | Netlify - Google Chrome' after 2 seconds.
+Switched from 'General | Project configuration | clever-salamander-6f087f | Netlify - Google Chrome' after 12 seconds.
+Switched from 'blocked.net.tamu.edu/?client_ip=165.91.10.12&type=security&url=uggc%3A%2F%2Fzvqavtugfuvsg.grpu - Google Chrome' after 4 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'ChatGPT - Google Chrome' after 30 seconds.
+Switched from 'Quick settings' after 30 seconds.
+Switched from 'blocked.net.tamu.edu/?client_ip=165.91.10.12&type=security&url=uggc%3A%2F%2Fzvqavtugfuvsg.grpu - Google Chrome' after 2 seconds.
+Switched from 'Quick settings' after 30 seconds.
+Switched from 'blocked.net.tamu.edu/?client_ip=165.91.10.12&type=security&url=uggc%3A%2F%2Fzvqavtugfuvsg.grpu - Google Chrome' after 2 seconds.
+Switched from 'General | Project configuration | clever-salamander-6f087f | Netlify - Google Chrome' after 2 seconds.
+Switched from 'Untitled - Google Chrome' after 2 seconds.
+Switched from 'midnightshift.tech/lander - Google Chrome' after 2 seconds.
+Switched from 'Inbox (1,107) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'General | Project configuration | clever-salamander-6f087f | Netlify - Google Chrome' after 4 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from '.gitignore - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'Task Switching' after 4 seconds.
+Switched from 'General | Project configuration | clever-salamander-6f087f | Netlify - Google Chrome' after 12 seconds.
+Switched from 'Discord' after 12 seconds (Distraction detected!).
+Switched from 'Meet - Google Chrome' after 2 seconds.
+Switched from 'Meet - zqj-pgaz-qzu - Google Chrome' after 14 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 4 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 4 seconds.
+Switched from 'blocked.net.tamu.edu/?client_ip=165.91.10.12&type=security&url=uggc%3A%2F%2Fzvqavtugfuvsg.grpu - Google Chrome' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 2 seconds.
+Switched from 'General | Project configuration | clever-salamander-6f087f | Netlify - Google Chrome' after 16 seconds.
+Switched from 'General | Project configuration | midnightshift | Netlify - Google Chrome' after 2 seconds.
+Switched from 'midnightshift.tech/lander - Google Chrome' after 4 seconds.
+Switched from 'General | Project configuration | midnightshift | Netlify - Google Chrome' after 4 seconds.
+Switched from 'Project overview | midnightshift | Netlify - Google Chrome' after 4 seconds.
+Switched from 'General | Project configuration | midnightshift | Netlify - Google Chrome' after 4 seconds.
+Switched from 'Access & security | Project configuration | midnightshift | Netlify - Google Chrome' after 14 seconds.
+Switched from 'Emails | Project configuration | midnightshift | Netlify - Google Chrome' after 2 seconds.
+Switched from 'General | Project configuration | midnightshift | Netlify - Google Chrome' after 10 seconds.
+Switched from 'Build & deploy | Project configuration | midnightshift | Netlify - Google Chrome' after 20 seconds.
+Switched from 'Notifications | Project configuration | midnightshift | Netlify - Google Chrome' after 2 seconds.
+Switched from 'Environment variables | Project configuration | midnightshift | Netlify - Google Chrome' after 2 seconds.
+Switched from 'Untitled - Google Chrome' after 2 seconds.
+Switched from 'Environment variables | Project configuration | midnightshift | Netlify - Google Chrome' after 2 seconds.
+Switched from 'General | Project configuration | midnightshift | Netlify - Google Chrome' after 18 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 10 seconds.
+Switched from 'meet.google.com is sharing your screen.' after 6 seconds.
+Switched from 'Project overview | midnightshift | Netlify - Google Chrome' after 12 seconds.
+Switched from 'yashv131 | Netlify - Google Chrome' after 6 seconds.
+Switched from 'Drop | Netlify - Google Chrome' after 2 seconds.
+Switched from 'Select Folder to Upload' after 6 seconds.
+Switched from 'Drop | Netlify - Google Chrome' after 6 seconds.
+Switched from 'Project overview | kaleidoscopic-kataifi-ec89ab | Netlify - Google Chrome' after 16 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Project overview | kaleidoscopic-kataifi-ec89ab | Netlify - Google Chrome' after 4 seconds.
+Switched from '' after 2 seconds.
+Switched from 'Discord' after 4 seconds (Distraction detected!).
+Switched from 'Open' after 14 seconds.
+Switched from 'Project overview | kaleidoscopic-kataifi-ec89ab | Netlify - Google Chrome' after 2 seconds.
+Switched from 'Inbox (1,107) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 6 seconds.
+Switched from 'Open' after 8 seconds.
+Switched from 'Inbox (1,107) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 4 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Home - File Explorer' after 2 seconds.
+Switched from 'FInalpart1 - File Explorer' after 4 seconds.
+Switched from 'TamuHack2026 - File Explorer' after 4 seconds.
+Switched from 'FInalpart1 - File Explorer' after 10 seconds.
+Switched from 'Compressing...' after 4 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Inbox (1,107) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 2 seconds.
+Switched from 'Inbox (1,107) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'Open' after 10 seconds.
+Switched from 'Compressing...' after 2 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 14 seconds.
+Switched from 'Compressing...' after 2 seconds.
+Switched from 'Open' after 28 seconds.
+Switched from 'File In Use' after 6 seconds.
+Switched from 'FInalpart1 - File Explorer' after 8 seconds.
+Session started!
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 6 seconds.
+Switched from 'Inbox (1,107) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 4 seconds.
+Switched from '' after 2 seconds.
+Switched from 'Task Switching' after 4 seconds.
+Switched from 'Untitled - Google Chrome' after 2 seconds.
+Switched from 'Discord' after 2 seconds (Distraction detected!).
+Switched from 'Meet - Google Chrome' after 2 seconds.
+Switched from 'Meet - zqj-pgaz-qzu - Google Chrome' after 14 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 48 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 2 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 6 seconds.
+Session ended. Last app was 'Task Switching' for 0 seconds.
+Session started!
+Switched from 'Improve Dashboard Aesthetics - Google Chrome' after 4 seconds.
+Switched from 'Inbox (1,106) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 4 seconds.
+Switched from 'Drafts (7) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'Sent Mail - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'Sign up | Heroku - Google Chrome' after 8 seconds.
+Switched from 'Inbox (1,106) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 10 seconds.
+Switched from 'chat.tamu.ai - Google Chrome' after 2 seconds.
+Switched from 'React Bricks Dashboard - Google Chrome' after 6 seconds.
+Switched from 'Devpost - Google Chrome' after 6 seconds.
+Switched from 'MidnightShift | Devpost - Google Chrome' after 4 seconds.
+Switched from 'Devpost - Google Chrome' after 48 seconds.
+Switched from 'Project overview | midnightshift | Netlify - Google Chrome' after 2 seconds.
+Switched from 'Inbox (1,106) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 4 seconds.
+Switched from 'Sent Mail - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'Drafts (7) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 6 seconds.
+Switched from 'Spam (41) - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 2 seconds.
+Switched from 'Confirm your account on Heroku - yashvi@tamu.edu - Texas A&M University Mail - Google Chrome' after 4 seconds.
+Switched from 'Untitled - Google Chrome' after 2 seconds.
+Switched from 'Welcome | Heroku - Google Chrome' after 20 seconds.
+Switched from 'Welcome to Heroku | Heroku - Google Chrome' after 2 seconds.
+Switched from 'Heroku | Login - Google Chrome' after 8 seconds.
+Switched from 'Heroku | Secure Your Account - Google Chrome' after 4 seconds.
+Switched from 'Heroku Verification - Google Chrome' after 6 seconds.
+Switched from 'verify.salesforce.com/v1/enroll/ - Google Chrome' after 2 seconds.
+Switched from 'Heroku | Login - Google Chrome' after 2 seconds.
+Switched from 'Heroku | Secure Your Account - Google Chrome' after 2 seconds.
+Switched from 'Heroku Verification - Google Chrome' after 10 seconds.
+Switched from 'Windows Security' after 2 seconds.
+Switched from 'Heroku Verification - Google Chrome' after 2 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'ChatGPT - Google Chrome' after 16 seconds.
+Switched from 'New Tab - Google Chrome' after 2 seconds.
+Switched from 'render - Google Search - Google Chrome' after 2 seconds.
+Switched from 'Cloud Application Platform | Render - Google Chrome' after 4 seconds.
+Switched from 'Render · The Easiest Cloud For All Your Apps - Google Chrome' after 2 seconds.
+Switched from 'Render Dashboard - Google Chrome' after 2 seconds.
+Switched from 'Sign in to GitHub · GitHub - Google Chrome' after 4 seconds.
+Switched from 'Heroku Verification - Google Chrome' after 2 seconds.
+Switched from 'New Tab - Google Chrome' after 2 seconds.
+Switched from 'Render · The Easiest Cloud For All Your Apps - Google Chrome' after 2 seconds.
+Switched from 'Render Dashboard - Google Chrome' after 8 seconds.
+Switched from 'Task Switching' after 4 seconds.
+Switched from 'ChatGPT - Google Chrome' after 38 seconds.
+Switched from 'Render Dashboard - Google Chrome' after 4 seconds.
+Switched from 'ChatGPT - Google Chrome' after 4 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Render Dashboard - Google Chrome' after 18 seconds.
+Switched from 'ChatGPT - Google Chrome' after 4 seconds.
+Switched from 'Render Dashboard - Google Chrome' after 2 seconds.
+Switched from 'Snipping Tool Overlay' after 2 seconds.
+Switched from 'ChatGPT - Google Chrome' after 32 seconds.
+Switched from '' after 2 seconds.
+Switched from 'Task Switching' after 4 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 20 seconds.
+Switched from 'Railway - Google Chrome' after 2 seconds.
+Switched from 'Login to the CLI | Railway - Google Chrome' after 2 seconds.
+Switched from 'Authorize Railway App - Google Chrome' after 2 seconds.
+Switched from 'OAuth application authorized - Google Chrome' after 2 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'OAuth application authorized - Google Chrome' after 2 seconds.
+Switched from 'railway.com wants to' after 2 seconds.
+Switched from 'Login to the CLI | Railway - Google Chrome' after 6 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 2 seconds.
+Switched from 'Login to the CLI | Railway - Google Chrome' after 8 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 14 seconds.
+Switched from 'Visual Studio Code' after 2 seconds.
+Switched from 'Railway - Google Chrome' after 2 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 4 seconds.
+Switched from 'ChatGPT - Google Chrome' after 14 seconds.
+Switched from 'Midnightshift | Railway - Google Chrome' after 10 seconds.
+Switched from 'Snipping Tool Overlay' after 4 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 2 seconds.
+Switched from 'ChatGPT - Google Chrome' after 4 seconds.
+Switched from 'New Tab - Google Chrome' after 2 seconds.
+Switched from 'ChatGPT - Google Chrome' after 4 seconds.
+Switched from 'Sign in – Google accounts - Google Chrome' after 24 seconds.
+Switched from 'ChatGPT - Google Chrome' after 4 seconds.
+Switched from 'Midnightshift | Railway - Google Chrome' after 4 seconds.
+Switched from 'ChatGPT - Google Chrome' after 6 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 8 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'ChatGPT - Google Chrome' after 14 seconds.
+Switched from 'File Upload Error - Google Chrome' after 10 seconds.
+Switched from 'Midnightshift | Railway - Google Chrome' after 2 seconds.
+Switched from 'File too large error - Google Chrome' after 10 seconds.
+Switched from '' after 2 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'meet.google.com is sharing your screen.' after 2 seconds.
+Switched from 'App.tsx - FInalpart1 - Visual Studio Code' after 12 seconds.
+Switched from 'Task Switching' after 4 seconds.
+Switched from 'File too large error - Google Chrome' after 2 seconds.
+Switched from 'meet.google.com is sharing your screen.' after 2 seconds.
+Switched from '.railwayignore - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Midnightshift | Railway - Google Chrome' after 2 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'File too large error - Google Chrome' after 8 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from '.railwayignore - FInalpart1 - Visual Studio Code' after 16 seconds.
+Switched from 'File too large error - Google Chrome' after 16 seconds.
+Switched from '.railwayignore - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'File too large error - Google Chrome' after 8 seconds.
+Switched from '.railwayignore - FInalpart1 - Visual Studio Code' after 6 seconds.
+Switched from 'File too large error - Google Chrome' after 38 seconds.
+Switched from '.railwayignore - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'requirements.txt - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from '.railwayignore - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'File too large error - Google Chrome' after 22 seconds.
+Switched from '.railwayignore - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'app.py - FInalpart1 - Visual Studio Code' after 10 seconds.
+Switched from 'eyetracking.py - FInalpart1 - Visual Studio Code' after 4 seconds.
+Switched from 'File too large error - Google Chrome' after 14 seconds.
+Switched from 'New Tab - Google Chrome' after 2 seconds.
+Switched from 'google drive - Google Search - Google Chrome' after 4 seconds.
+Switched from 'Google Drive - Google Chrome' after 2 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 2 seconds.
+Switched from 'Open' after 16 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 4 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 4 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 32 seconds.
+Switched from 'File too large error - Google Chrome' after 24 seconds.
+Switched from 'Sign in to GitHub · GitHub - Google Chrome' after 2 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 2 seconds.
+Switched from 'File too large error - Google Chrome' after 18 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 4 seconds.
+Switched from 'File too large error - Google Chrome' after 8 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 22 seconds.
+Switched from 'Quick settings' after 8 seconds.
+Switched from '' after 14 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 4 seconds.
+Switched from 'about:blank - Google Chrome' after 2 seconds.
+Switched from 'Copy, URL to Google Drive - Google Chrome' after 6 seconds.
+Switched from 'Untitled - Google Chrome' after 2 seconds.
+Switched from 'Sign in – Google accounts - Google Chrome' after 4 seconds.
+Switched from 'Copy, URL to Google Drive - Google Chrome' after 4 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 6 seconds.
+Switched from 'Meet - zqj-pgaz-qzu' after 2 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 6 seconds.
+Switched from 'Copy, URL to Google Drive - Google Chrome' after 4 seconds.
+Switched from 'copy url to google drive - Google Search - Google Chrome' after 2 seconds.
+Switched from 'Copy, URL to Google Drive™ - Google Workspace Marketplace - Google Chrome' after 4 seconds.
+Switched from 'Marketplace app installation messages - Google Workspace Marketplace Help - Google Chrome' after 6 seconds.
+Switched from 'copy url to google drive - Google Search - Google Chrome' after 2 seconds.
+Switched from 'Copy, URL to Google Drive - Google Chrome' after 4 seconds.
+Switched from 'Untitled - Google Chrome' after 2 seconds.
+Switched from 'Sign in – Google accounts - Google Chrome' after 2 seconds.
+Switched from 'copy url to google drive - Google Search - Google Chrome' after 2 seconds.
+Switched from 'I would like to save website urls within my google drive folders - Google Drive Community - Google Chrome' after 8 seconds.
+Switched from 'copy url to google drive - Google Search - Google Chrome' after 4 seconds.
+Switched from 'Save to Google Drive - Chrome Web Store - Google Chrome' after 2 seconds.
+Switched from 'copy url to google drive - Google Search - Google Chrome' after 2 seconds.
+Switched from '[4 Ways] How to Copy URL to Google Drive Directly - Google Chrome' after 4 seconds.
+Switched from 'copy url to google drive - Google Search - Google Chrome' after 2 seconds.
+Switched from 'My Drive - Google Drive - Google Chrome' after 2 seconds.
+Switched from 'copy url to google drive - Google Search - Google Chrome' after 10 seconds.
+Switched from 'get a url for a google drive file - Google Search - Google Chrome' after 2 seconds.
+Switched from 'Is is possible to get a permanent URL to a file uploaded to Google drive? - Stack Overflow - Google Chrome' after 8 seconds.
+Switched from 'Sign in to GitHub · GitHub - Google Chrome' after 2 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'eyetracking.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'Discord' after 6 seconds (Distraction detected!).
+Switched from 'Releases · omwaman1/dlib - Google Chrome' after 2 seconds.
+Switched from 'Discord' after 2 seconds (Distraction detected!).
+Switched from 'GitHub - italojs/facial-landmarks-recognition - Google Chrome' after 6 seconds.
+Switched from 'ChatGPT - Google Chrome' after 8 seconds.
+Switched from 'meet.google.com is sharing your screen.' after 2 seconds.
+Switched from 'ChatGPT - Google Chrome' after 8 seconds.
+Switched from 'React Bricks Dashboard - Google Chrome' after 2 seconds.
+Switched from 'ChatGPT - Google Chrome' after 2 seconds.
+Switched from 'File too large error - Google Chrome' after 24 seconds.
+Switched from 'Task Switching' after 2 seconds.
+Switched from 'eyetracking.py - FInalpart1 - Visual Studio Code' after 2 seconds.
+Switched from '● eyetracking.py - FInalpart1 - Visual Studio Code' after 26 seconds.
+Switched from 'File too large error - Google Chrome' after 18 seconds.

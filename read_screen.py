@@ -1,130 +1,86 @@
 import ctypes
+import psutil
 import time
 from datetime import datetime
-import psutil
-import threading
-import os
+from win10toast import ToastNotifier
 
-# Windows API constants
-GetForegroundWindow = ctypes.windll.user32.GetForegroundWindow
-GetWindowTextW = ctypes.windll.user32.GetWindowTextW
-GetWindowTextLengthW = ctypes.windll.user32.GetWindowTextLengthW
-GetWindowThreadProcessId = ctypes.windll.user32.GetWindowThreadProcessId
+class ScreenMonitor:
+    def __init__(self, session_id, stop_event, db_manager):
+        self.session_id = session_id
+        self.stop_event = stop_event
+        self.db = db_manager
+        self.log_file = "screen_activity.log"
+        self.toaster = ToastNotifier()
+        self.canonical_apps = {
+            " instagram ": "Instagram",
+            " facebook ": "Facebook",
+            " youtube ": "YouTube",
+            " whatsapp ": "Whatsapp",
+            " twitter ": "Twitter",
+            " tiktok ": "TikTok",
+            " reddit ": "Reddit",
+            " snapchat ": "Snapchat",
+            " pinterest ": "Pinterest",
+           " messenger ": "Messenger",
+            " discord ": "Discord",
+            " twitch ": "Twitch",
+            " netflix ": "Netflix",
+            " hulu ": "Hulu",
+            " hbo ": "HBO",
+            " disney ": "Disney"
+        }
 
-# Log file path
-LOG_FILE = "screen_activity.log"
+    def _get_active_window_info(self):
+        try:
+            hwnd = ctypes.windll.user32.GetForegroundWindow()
+            pid = ctypes.c_ulong()
+            ctypes.windll.user32.GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
+            process_name = psutil.Process(pid.value).name()
+            length = ctypes.windll.user32.GetWindowTextLengthW(hwnd)
+            buf = ctypes.create_unicode_buffer(length + 1)
+            ctypes.windll.user32.GetWindowTextW(hwnd, buf, length + 1)
+            return {'process': process_name, 'title': buf.value}
+        except Exception:
+            return {'process': 'Unknown', 'title': 'Unknown'}
 
-def log_activity(message):
-    """Log activity to both console and file"""
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    log_message = f"[{timestamp}] {message}"
-    print(log_message)
-    
-    # Also write to log file
-    try:
-        with open(LOG_FILE, 'a') as f:
-            f.write(log_message + "\n")
-    except Exception as e:
-        print(f"Error writing to log: {e}")
+    def _get_canonical_app(self, title, process):
+        combined = (title + " " + process).lower()
+        for keyword, name in self.canonical_apps.items():
+            if keyword in combined:
+                return name
+        return None
 
-def get_active_window_title():
-    """Get the title of the currently active window"""
-    try:
-        hwnd = GetForegroundWindow()
-        length = GetWindowTextLengthW(hwnd)
-        
-        if length == 0:
-            return "Unknown Window"
-        
-        buf = ctypes.create_unicode_buffer(length + 1)
-        GetWindowTextW(hwnd, buf, length + 1)
-        return buf.value
-    except Exception as e:
-        return f"Error: {e}"
+    def _is_distracting(self, title, process):
+        return self._get_canonical_app(title, process) is not None
 
-def get_active_window_process():
-    """Get the process name of the currently active window"""
-    try:
-        hwnd = GetForegroundWindow()
-        pid = ctypes.c_ulong()
-        GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
-        
-        process = psutil.Process(pid.value)
-        return process.name()
-    except Exception as e:
-        return f"Unknown Process"
+    def _log(self, message):
+        log_entry = message + "\n"
+        with open(self.log_file, 'a', encoding='utf-8') as f:
+            f.write(log_entry)
 
-def get_active_window_info():
-    """Get full information about the active window"""
-    title = get_active_window_title()
-    process = get_active_window_process()
-    return {
-        'title': title,
-        'process': process,
-        'timestamp': datetime.now().strftime('%H:%M:%S')
-    }
-
-def monitor_window_changes(callback=None, check_interval=0.5):
-    """Monitor for window/tab changes continuously
-    
-    Args:
-        callback: Function to call when window changes. Receives window info dict.
-        check_interval: How often to check for changes in seconds (default 0.5s for frequent updates)
-    """
-    last_window = None
-    last_title = None
-    
-    log_activity("="*60)
-    log_activity("Screen Monitor Started - Continuously Reading Screen")
-    log_activity("="*60)
-    
-    try:
-        while True:
-            current_info = get_active_window_info()
-            current_window = f"{current_info['process']}:{current_info['title']}"
-            current_title = current_info['title']
-            
-            # Check if window or tab changed
-            if last_window is None or current_window != last_window:
-                log_activity(f"✓ WINDOW/TAB CHANGED")
-                log_activity(f"  Application: {current_info['process']}")
-                log_activity(f"  Title: {current_info['title']}")
-                log_activity(f"  Time: {current_info['timestamp']}")
-                log_activity("")
-                
-                if callback:
-                    callback(current_info)
-                
-                last_window = current_window
-                last_title = current_title
-            
-            time.sleep(check_interval)
-    
-    except KeyboardInterrupt:
-        log_activity("\n" + "="*60)
-        log_activity("Screen Monitor stopped by user")
-        log_activity("="*60)
-
-def get_screen_info():
-    """Get current screen information and display it"""
-    info = get_active_window_info()
-    print("\n" + "="*50)
-    print("CURRENT SCREEN INFORMATION")
-    print("="*50)
-    print(f"Time: {info['timestamp']}")
-    print(f"Application: {info['process']}")
-    print(f"Window Title: {info['title']}")
-    print("="*50 + "\n")
-    return info
-
-def start_continuous_monitoring():
-    """Start continuous screen monitoring in background"""
-    log_activity("Starting continuous screen monitoring...")
-    monitor_window_changes(check_interval=0.5)  # Check every 0.5 seconds
-
-if __name__ == "__main__":
-    # Display current window info first
-    get_screen_info()
-    
-    # Start continuous monitoring
-    start_continuous_monitoring()
+    def start_monitoring(self, interval=2.0):
+        self._log("Session started!")
+        last_info = self._get_active_window_info()
+        last_canonical = self._get_canonical_app(last_info['title'], last_info['process']) or last_info['title']
+        start_time = datetime.now()
+        while not self.stop_event.is_set():
+            time.sleep(interval)
+            current_info = self._get_active_window_info()
+            current_canonical = self._get_canonical_app(current_info['title'], current_info['process']) or current_info['title']
+            if current_canonical != last_canonical:
+                duration = int((datetime.now() - start_time).total_seconds())
+                is_distraction = self._is_distracting(last_info['title'], last_info['process'])
+                self.db.log_app_visit(self.session_id, last_canonical, duration, is_distraction)
+                distraction_msg = " (Distraction detected!)" if is_distraction else ""
+                self._log(f"Switched from '{last_canonical}' after {duration} seconds{distraction_msg}.")
+                last_canonical = current_canonical
+                last_info = current_info
+                start_time = datetime.now()
+                if self._is_distracting(current_info['title'], current_info['process']):
+                    self.toaster.show_toast("Distraction Alert!", f"Switched to {current_canonical}", threaded=True)
+        duration = int((datetime.now() - start_time).total_seconds())
+        is_distraction = self._is_distracting(last_info['title'], last_info['process'])
+        self.db.log_app_visit(self.session_id, last_canonical, duration, is_distraction)
+        distraction_msg = " (Distraction detected!)" if is_distraction else ""
+        self._log(f"Session ended. Last app was '{last_canonical}' for {duration} seconds{distraction_msg}.")
+        print("ScreenMonitor stopped.")

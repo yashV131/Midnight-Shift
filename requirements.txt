@@ -1,0 +1,12 @@
+# requirements.txt
+flask
+flask-cors
+psutil
+opencv-python
+dlib
+face-recognition
+numpy
+requests
+win10toast
+flask_cors
+ultralytics
