@@ -3,7 +3,7 @@ MidnightShift is a productivity and security dashboard with distraction tracking
 Follow these steps to set up and run the project locally.
 
 ## DEMO
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O2-cWS0dveY?si=ZJWk7mJ6OggEDt6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/O2-cWS0dveY/maxresdefault.jpg)](https://youtu.be/O2-cWS0dveY)
 
 ## Setup Instructions:
 ### 1. Prerequisites
