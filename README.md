@@ -4,7 +4,7 @@ Follow these steps to set up and run the project locally.
 
 ## DEMO
 [![Watch the video](https://img.youtube.com/vi/O2-cWS0dveY/maxresdefault.jpg)](https://youtu.be/O2-cWS0dveY)
-Watch the video below for a detailed analysis on Midnightshift:
+Watch the video above for a detailed analysis on Midnightshift.
 
 ## Setup Instructions:
 ### 1. Prerequisites
