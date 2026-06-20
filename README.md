@@ -1,10 +1,10 @@
-# MidnightShift
+# ATLAS
 
-**MidnightShift** is an intelligent productivity and security dashboard designed to help users maintain focus and security during long work sessions. It combines eye-tracking technology, real-time screen monitoring, and smart device locking to provide comprehensive analytics on productivity, distractions, and user presence.
+**ATLAS** is an intelligent productivity and security dashboard designed to help users maintain focus and security during long work sessions. It combines eye-tracking technology, real-time screen monitoring, and smart device locking to provide comprehensive analytics on productivity, distractions, and user presence.
 
 ## Overview
 
-MidnightShift monitors your work environment in real-time to:
+ATLAS monitors your work environment in real-time to:
 - **Track Eye Engagement**: Detect eye gaze patterns and attention levels using computer vision
 - **Monitor Screen Activity**: Identify active applications and distractions in real-time
 - **Auto-Lock Mechanism**: Automatically lock your device when you look away or are inactive
@@ -117,7 +117,7 @@ The backend will:
 
 ### 5. Access the Dashboard
 
-Open your browser and navigate to `http://localhost:5173` (Vite dev server) to access the MidnightShift dashboard.
+Open your browser and navigate to `http://localhost:5173` (Vite dev server) to access the ATLAS dashboard.
 
 ## How It Works
 
@@ -156,7 +156,7 @@ Open your browser and navigate to `http://localhost:5173` (Vite dev server) to a
 
 [![Watch the video](https://img.youtube.com/vi/O2-cWS0dveY/maxresdefault.jpg)](https://youtu.be/O2-cWS0dveY)
 
-Watch the demo video above for a detailed analysis and walkthrough of MidnightShift features.
+Watch the demo video above for a detailed analysis and walkthrough of ATLAS features.
 
 ## Project Structure
 

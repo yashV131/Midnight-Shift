@@ -8,7 +8,10 @@ import os
 import urllib.request
 
 
-PREDICTOR_PATH = "shape_predictor_68_face_landmarks.dat"
+# Resolve predictor path relative to this module so it works when app
+# is launched from the project root.
+HERE = os.path.dirname(__file__)
+PREDICTOR_PATH = os.path.join(HERE, "shape_predictor_68_face_landmarks.dat")
 PREDICTOR_URL = "https://raw.githubusercontent.com/italojs/facial-landmarks-recognition/master/shape_predictor_68_face_landmarks.dat"
 
 def ensure_predictor():
@@ -18,16 +21,22 @@ def ensure_predictor():
         print("Predictor downloaded.")
 
 class EyeTracker:
-    def __init__(self, stop_event, predictor_path="shape_predictor_68_face_landmarks.dat"):
+    def __init__(self, stop_event, predictor_path=PREDICTOR_PATH):
         self.stop_event = stop_event
         self.predictor_path = predictor_path
         self.api_url = "http://127.0.0.1:5000/api/eye-tracking/update"
         
+        # Ensure predictor file exists (downloads if missing)
+        try:
+            ensure_predictor()
+        except Exception as e:
+            print(f"Warning: failed to download predictor automatically: {e}")
+
         self.detector = dlib.get_frontal_face_detector()
         try:
             self.predictor = dlib.shape_predictor(self.predictor_path)
-        except RuntimeError:
-            raise FileNotFoundError(f"Predictor file not found at {predictor_path}. Please download it and place it in the project root.")
+        except Exception as e:
+            raise FileNotFoundError(f"Predictor file not found at {self.predictor_path}. Please download it and place it in the backend folder. Original error: {e}")
 
         self.cap = cv2.VideoCapture(0)
 

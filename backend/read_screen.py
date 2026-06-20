@@ -12,22 +12,22 @@ class ScreenMonitor:
         self.log_file = "screen_activity.log"
         self.toaster = ToastNotifier()
         self.canonical_apps = {
-            " instagram ": "Instagram",
-            " facebook ": "Facebook",
-            " youtube ": "YouTube",
-            " whatsapp ": "Whatsapp",
-            " twitter ": "Twitter",
-            " tiktok ": "TikTok",
-            " reddit ": "Reddit",
-            " snapchat ": "Snapchat",
-            " pinterest ": "Pinterest",
-           " messenger ": "Messenger",
-            " discord ": "Discord",
-            " twitch ": "Twitch",
-            " netflix ": "Netflix",
-            " hulu ": "Hulu",
-            " hbo ": "HBO",
-            " disney ": "Disney"
+            "instagram": "Instagram",
+            "facebook": "Facebook",
+            "youtube": "YouTube",
+            "whatsapp": "Whatsapp",
+            "twitter": "Twitter",
+            "tiktok": "TikTok",
+            "reddit": "Reddit",
+            "snapchat": "Snapchat",
+            "pinterest": "Pinterest",
+            "messenger": "Messenger",
+            "discord": "Discord",
+            "twitch": "Twitch",
+            "netflix": "Netflix",
+            "hulu": "Hulu",
+            "hbo": "HBO",
+            "disney": "Disney"
         }
 
     def _get_active_window_info(self):

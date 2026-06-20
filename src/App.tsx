@@ -101,7 +101,7 @@ export default function App() {
     <div className="min-h-screen bg-[#0a0e27] p-6 text-[#a8c0ff] relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
         <header className="text-center mb-8">
-          <h1 className="text-2xl font-bold retro-text">MIDNIGHTSHIFT</h1>
+          <h1 className="text-2xl font-bold retro-text">ATLAS</h1>
           <p className="text-[50px] text-[#7b9cdb] retro-text">~ productivity monitoring for the night owls ~</p>
         </header>
         <div className="bg-[#1a2456] border-2 border-[#4a5f8f] p-6 mb-6 flex items-center justify-between">
