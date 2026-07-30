@@ -75,8 +75,8 @@ ATLAS monitors your work environment in real-time to:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yashV131/Mignight-Shift.git
-cd Mignight-Shift
+git clone https://github.com/yashV131/Midnight-Shift.git
+cd Midnight-Shift
 ```
 
 ### 2. Backend Setup
